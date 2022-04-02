@@ -5,7 +5,6 @@ import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.tomcat.util.log.UserDataHelper.Mode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,7 +58,7 @@ public class FbkClientController {
 	
 	
 	@RequestMapping(value = "/admin")
-	public String loadAdminPanel(Mode model,HttpServletRequest request)
+	public String loadAdminPanel(Model model,HttpServletRequest request)
 	{
 	InetOrgPerson user = (InetOrgPerson) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 	LOG.info("User details :", user.getUsername());
