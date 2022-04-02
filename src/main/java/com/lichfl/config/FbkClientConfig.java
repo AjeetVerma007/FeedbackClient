@@ -23,7 +23,7 @@ public class FbkClientConfig implements TransactionManagementConfigurer {
         dataSource.setUrl("jdbc:oracle:thin:@//10.21.2.101:1521/LICHFLDBTEST");
         dataSource.setUsername("testserver");
         dataSource.setPassword("testserver1");
-
+ 
         return dataSource;
     }	
 	@Bean
