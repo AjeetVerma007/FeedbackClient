@@ -8,7 +8,7 @@ import org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
-//class for async config
+//class for async config -@author 70766 
 @EnableAsync
 @Configuration
 public class FbkClientAsyncConfig implements AsyncConfigurer{
