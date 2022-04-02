@@ -1,6 +1,6 @@
 package com.lichfl.config;
 
-public class test {
+public class test1 {
 	
 	public void test2()
 	{
